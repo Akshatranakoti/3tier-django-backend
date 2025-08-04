@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'mysql.connector.django',
         'NAME': 'myprojectdb',
         'USER': 'myuser',
-        'PASSWORD': 'mypassword',
+        'PASSWORD': 'P@ssw0rd123!',
         'HOST': '10.0.3.80',
         'PORT': '3306',
     }
@@ -125,3 +125,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
